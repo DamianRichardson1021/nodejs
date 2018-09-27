@@ -1,5 +1,2 @@
 # nodejs
-this is an app I created with node js
-
-it is a bare-bones application
-
+The third edition of this app will have newer and more improved features, thinking creatively 
