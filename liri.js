@@ -1,15 +1,15 @@
 //this initializes the app 
 
 require("dotenv").config();
-var Twitter = require("twitter");
+var Twit = require("Twit");
 var Spotify = require("node-spotify-api");
-var request = require("request");
+var makeRequest = require("makeRequest");
 var fs = require("fs");
 //variables for keys 
 var keys = require("./keys.js");
 
 var spotify = new Spotify(keys.spotify);
-var client = new Twitter(keys.twitter);
+var client = new Twit(keys.Twit);
 
 runProgram(process.argv[2], process.argv[3])
 //the basic function 
@@ -132,7 +132,7 @@ function runProgram(command, userQuery) {
 	
 			var queryUrl = "http://www.omdbapi.com/?apikey=trilogy&t=" +userQuery;
 	
-			request(queryUrl, function(error, response, body) {
+			makeRequest(queryUrl, function(error, response, body) {
 				if (error)
 					throw error;
 	
