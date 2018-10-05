@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/a-murph/LIRI-Node-App/issues"
   },
-  "homepage": "https://github.com/a-murph/LIRI-Node-App#readme",
+  "homepage": "https://github.com/DamianRIchardson1021/LIRI-Node-App#readme",
   "dependencies": {
     "dotenv": "^6.0.0",
     "node-spotify-api": "^1.0.7",
