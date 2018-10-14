@@ -1,4 +1,4 @@
-# LIRI, 299185d565374528aeaabdf8888d6d86
+# LIRI
 
 This was created as part of the Rutgers Coding bootcamp assignment for week 10
 
